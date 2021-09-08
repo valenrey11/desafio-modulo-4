@@ -17,10 +17,12 @@ body {
   background-image: url(../media/fondo-tp-3.jpg);
   background-position: 18%;
   background-size: cover;
+  padding-top: 80px;
 }
 @media (min-width: 960px) {
   .welcome {
     height: calc(100vh - 250px);
+    padding: 50px;
   }
 }
 .welcome__container {
@@ -28,7 +30,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
 }
 .welcome__title {
   font-family: "Montserrat";
