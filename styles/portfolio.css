@@ -62,5 +62,9 @@ body {
 /* .portfolio__card-description {
 } */
 .portfolio__card-link {
-  border: solid red;
+  text-decoration: none;
+  color: #fc6f50;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
 }

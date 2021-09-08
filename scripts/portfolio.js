@@ -25,7 +25,6 @@ function main() {
         // console.log(arrayObjPortfolio);
         arrayObjPortfolio.forEach((element) => {
           const encontrado = encontrar(element.generalId, element.idImg);
-          console.log("encontrado", encontrado);
           element.imagen = encontrado.fields.file.url;
         });
         function encontrar(array, id) {
@@ -55,7 +54,7 @@ function main() {
       card.titulo;
     template.content.querySelector(".portfolio__card-description").textContent =
       card.descripcion;
-    template.content.querySelector(".portfolio__card-link").href;
+    template.content.querySelector(".portfolio__card-link").href = card.link;
     template.content.querySelector(".portfolio__card-img").src = card.imagen;
 
     const clone = document.importNode(template.content, true);
