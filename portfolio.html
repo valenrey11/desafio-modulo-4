@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- HEADER  -->
+    <link rel="stylesheet" href="./componentes/header/header.css" />
+    <script defer src="./componentes/header/header.js"></script>
+    <!-- FOOTER  -->
+    <link rel="stylesheet" href="./componentes/footer/footer.css" />
+    <script defer src="./componentes/footer/footer.js"></script>
+    <!-- POERTFOLIO -->
+    <link rel="stylesheet" href="./styles/portfolio.css" />
+    <script defer src="./scripts/portfolio.js"></script>
+    <!-- INDEX  -->
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="header-content"></div>
+    <section class="portfolio">
+      <div class="presentation">
+        <h2 class="portfolio__title">Portfolio</h2>
+      </div>
+      <div class="portfolio__content-cards"></div>
+    </section>
+    <template id="portfolio__template">
+      <div class="portfolio__card">
+        <img class="portfolio__card-img" src="" alt="foto-prueba" />
+        <div class="prtfolio__card-text">
+          <h3 class="portfolio__card-title"></h3>
+          <p class="portfolio__card-description"></p>
+          <a class="portfolio__card-link" href=""></a>
+        </div>
+      </div>
+    </template>
+    <div class="footer-content"></div>
+  </body>
+</html>

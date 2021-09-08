@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <link rel="stylesheet" href="./componentes/header/header.css" />
+    <script defer src="./componentes/header/header.js"></script>
+
+    <link rel="stylesheet" href="./componentes/footer/footer.css" />
+    <script defer src="./componentes/footer/footer.js"></script>
+
+    <link rel="stylesheet" href="./componentes/contacto/contacto.css" />
+    <script defer src="./componentes/contacto/contacto.js"></script>
+
+    <link rel="stylesheet" href="./styles/services.css" />
+    <script defer src="./scripts/services.js"></script>
+
+    <script defer src="./scripts/index.js"></script>
+  </head>
+  <body>
+    <div class="header-content"></div>
+    <section class="welcome">
+      <div class="welcome__container">
+        <h1 class="welcome__title">Hola!</h1>
+        <h2 class="welcome__subtitle">Soy valen</h2>
+      </div>
+    </section>
+    <section class="about-me">
+      <div class="about-me__content">
+        <img class="about-me__img" src="./media/yo.png" alt="yo" />
+        <div class="about-me__info">
+          <h2 class="about-me__subtitle">Soy valen</h2>
+          <p class="about-me__description">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique. Phasellus
+            placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet
+            lacus. Integer ut iaculis augue, sit amet tincidunt ex. In eleifend
+            justo et sodales semper. Mauris nec tortor lectus. Curabitur nec
+            ultricies dolor.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="my-services">
+      <h2 class="my-services__title">Servicios</h2>
+      <div class="my-services__content-cards"></div>
+    </section>
+    <template id="my-services-template">
+      <div class="my-services__cards-container">
+        <div class="my-services__card">
+          <img
+            class="my-services__img"
+            src="./media/yo.png"
+            alt="foto prueba"
+          />
+          <div class="my-services__card-text">
+            <h3 class="my-services__card-title">soy el titulo</h3>
+            <p class="my-services__card-description">soy la descripcion</p>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <section class="contact-content"></section>
+    <div class="footer-content"></div>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+  <html lang="en">  
+    <head>
+     <meta charset="UTF-8" />
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Document</title>
+         <!-- FONTS -->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+     />
+     <!-- HEADER COMPONENT  -->
+     
+     <link rel="stylesheet" href="./componentes/header/header.css" />
+     <script defer src="./componentes/header/header.js"></script>
+
+     
+     <!-- FOOTER COMPONENT -->
+     
+     <link rel="stylesheet" href="./componentes/footer/footer.css" />
+     <script defer src="./componentes/footer/footer.js"></script>
+     
+     <!-- SECTION SERVICES -->
+     
+     <script defer src="./scripts/services.js"></script>
+     <link rel="stylesheet" href="./styles/services.css" />
+     
+     <!-- INDEX -->
+      
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="header-content"></div>
+
+    <section class="my-services">
+      <div class="presentation">
+        <h2 class="my-services__title">Servicios</h2>
+      </div>
+      <div class="my-services__content-cards"></div>
+    </section>
+      <template id="my-services-template">
+        <div class="my-services__card">
+          <img
+            class="my-services__img"
+            src="./media/yo.png" 
+            alt="foto prueba"
+          />
+          <div class="my-services__card-text">
+            <h3 class="my-services__card-title">soy el titulo</h3>
+            <p class="my-services__card-description">soy la descripcion</p>
+          </div>
+        </div>
+      </template>
+    </div>
+    <section class="contact-content"></section>
+
+    <div class="footer-content"></div>
+  </body> 
+</html>

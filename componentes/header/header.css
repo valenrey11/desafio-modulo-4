@@ -1,0 +1,132 @@
+.header {
+  width: 100%;
+  height: 95px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+@media (min-width: 960px) {
+  .header {
+    height: 120px;
+  }
+}
+.header__logo {
+  width: 70px;
+  height: 70px;
+}
+@media (min-width: 960px) {
+  .header__logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 35px;
+  }
+}
+.header__menu {
+  height: 100%;
+}
+@media (min-width: 960px) {
+  .header__menu {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header__opciones {
+  display: none;
+}
+@media (min-width: 960px) {
+  .header__opciones {
+    display: flex;
+    align-items: center;
+  }
+}
+/* .header__opciones-redirect{} */
+@media (min-width: 960px) {
+  .header__opciones-redirect {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 15px 40px;
+  }
+  .header__opciones-redirect:hover {
+    background-color: teal;
+    border-radius: 5px;
+    color: black;
+  }
+}
+
+.header__line {
+  width: 50px;
+  height: 6px;
+  background-color: whitesmoke;
+}
+@media (min-width: 960px) {
+  .header__line {
+    display: none;
+  }
+}
+.header__button--abre {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: black;
+  border: none;
+}
+@media (min-width: 960px) {
+  .header__button--abre {
+    display: none;
+  }
+}
+.header__ventana {
+  display: none;
+
+  position: absolute;
+  background-color: black;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+}
+.header__close-img {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+.header__button--cierra {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  align-self: flex-end;
+  border: none;
+}
+.header__button--cierra:hover {
+  background-color: teal;
+  transition: 0.5s;
+}
+
+.header__ventana-content {
+  display: flex;
+  flex-direction: column;
+}
+.header__ventana-links {
+  margin-top: 120px;
+}
+.header__ventana-links a {
+  color: whitesmoke;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  margin: 30px;
+  border-radius: 5px;
+}
+.header__ventana-links a:hover {
+  background-color: teal;
+  transition: 0.5s;
+}
