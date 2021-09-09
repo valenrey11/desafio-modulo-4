@@ -32,14 +32,18 @@ body {
   margin-bottom: 40px;
   padding: 0 40px;
 }
+@media (min-width: 669px) {
+  .portfolio__content-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
 @media (min-width: 960px) {
   .portfolio__content-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding: 0 40px;
   }
 }
 .portfolio__card {

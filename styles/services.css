@@ -15,6 +15,11 @@ body {
   display: grid;
   gap: 40px;
 }
+@media (min-width: 669px) {
+  .my-services__content-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media (min-width: 960px) {
   .my-services__content-cards {
     grid-template-columns: 1fr 1fr 1fr;
